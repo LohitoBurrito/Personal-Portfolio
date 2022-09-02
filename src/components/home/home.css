@@ -1,0 +1,120 @@
+.home {
+    width: 100%;
+    height: 750px;
+    position: fixed;
+    z-index: -5;
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+    background-color: bisque;
+}
+.aboutMe {
+    background-color: rgb(234, 78, 78);
+    position: absolute;
+    width: 50%;
+    border-radius: 600px;
+    overflow: hidden;
+}
+.aboutMe:after {
+    content: "";
+    display: block;
+    padding-bottom: 82.5%;
+}
+.BackWords {
+    padding-left: 25%;
+    padding-right: 25%;
+    position: absolute;
+    width: 90%;
+    overflow: hidden;
+}
+.BackWords:after {
+    content: "";
+    display: block;
+    padding-bottom: 55%; 
+}
+.BackWords h1 {
+    transform: translateY(350%);
+    text-align: center;
+    font-size: clamp(10px, 6.25vw, 110px);
+    color:black;
+}
+.aboutMe h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    transform: translateY(350%);
+    text-align: center;
+    font-size: clamp(10px, 6.25vw, 110px);
+}
+.Hello {
+    position: absolute;
+    width: 50%;
+    border-radius: 600px;
+    overflow: hidden; 
+}
+.Hello:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; 
+}
+.Hello h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+    transform: translateY(50%);
+    font-size: clamp(50px, 10vw, 200px);
+}
+.Description {
+    position: absolute;
+    width: 30%;
+    border-radius: 600px;
+}
+.Description:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; 
+}
+.Description h3 {
+    text-align: center;
+    color: white;
+    transform: translateY(1000%);
+    font-size: clamp(2px, 1.5vw, 25px);
+    font-weight: 500;
+}
+@media (max-width: 500px) {
+    .BackWords {
+        padding-left: 25%;
+        padding-right: 25%;
+        position: absolute;
+        width: 90%;
+        overflow: hidden;
+        margin-top: 51.2%;
+        transform: scale(1.3);
+    }
+    .aboutMe {
+        background-color: rgb(234, 78, 78);
+        position: absolute;
+        width: 50%;
+        border-radius: 600px;
+        overflow: hidden;
+        margin-top: 50%;
+        transform: scale(1.3);
+    }
+    .Hello {
+        position: absolute;
+        width: 50%;
+        border-radius: 600px;
+        overflow: hidden; 
+        margin-top: 50%;
+        transform: scale(1.3);
+    }
+    .Description {
+        position: absolute;
+        width: 30%;
+        border-radius: 600px;
+        margin-top: 50%;
+        transform: scale(1.3);
+    }
+}

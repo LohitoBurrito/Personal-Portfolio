@@ -1,0 +1,240 @@
+.Projects {
+    width: 100%;
+    background-color: white;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.Projects .containerProjects h1 {
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    font-weight: 300;
+}
+.myProjects {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-left: 5%;
+}
+.cards {
+    height: 425px;
+    width: 400px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+#quote .projectImage1 {
+    background: none;
+}
+#quote .projectImage1:hover {
+    transform: scale(1);
+}
+#quote .projectImage1 h2{
+    font-family: 'Quicksand', sans-serif;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 400;
+    transform: translateX(-50px);
+    color: black;
+    line-height: 25px;
+}
+.Projects .ProjectHeader h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: clamp(30px, 0px + 12vw, 110px);;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 75px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Projects .ProjectHeader {
+    display: flex;
+    justify-content: right;
+}
+.cards h2 {
+    font-weight: 300;
+    font-size: 30px;
+    opacity: 0;
+    color:white;
+}
+.cards h3 {
+    font-weight: 300;
+    font-size: 15px;
+    opacity: 0;
+    margin-bottom: 20px;
+    color:white;
+}
+.cards p {
+    font-weight: 300;
+    font-size: 20px;
+    opacity: 0;
+    margin-bottom: 20px;
+    color:white;
+}
+.cards .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards .links a {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    opacity: 0;
+    margin-bottom: 20px;
+    color:white;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: inset 0px 0px 0px white;
+    transition: 1s;
+}
+.cards .links a:hover {
+    box-shadow: inset 175px 0px 0px white;
+    color: black;
+}
+
+.cards .projectImage1 {
+    background-image: url('/public/project1.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    background-position: center;
+    padding: 30px;
+    transition: 0.3s;
+}
+.cards .projectImage1:hover {
+    background: rgba(0, 0, 0, 0.75) url('/public/project1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    transform: scale(1.1);
+}
+.cards .projectImage1:hover h2,
+.cards .projectImage1:hover h3,
+.cards .projectImage1:hover p,
+.cards .projectImage1:hover .links a {
+    opacity: 1;
+}
+
+.cards .projectImage2 {
+    height: 100%;
+    background-image: url('/public/project2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    background-position: center;
+    padding: 30px;
+    transition: 0.3s;
+}
+.cards .projectImage2:hover {
+    background: rgba(0, 0, 0, 0.75) url('/public/project2.png');
+    background-position: right 60% bottom 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    transform: scale(1.1);
+}
+.cards .projectImage2:hover h2,
+.cards .projectImage2:hover h3,
+.cards .projectImage2:hover p,
+.cards .projectImage2:hover a {
+    opacity: 1;
+}
+
+.cards .projectImage3 {
+    height: 100%;
+    background-image: url('/public/project2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    background-position: center;
+    padding: 30px;
+    transition: 0.3s;
+}
+.cards .projectImage3:hover {
+    background: rgba(0, 0, 0, 0.75) url('/public/project2.png');
+    background-position: right 60% bottom 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    transform: scale(1.1);
+}
+.cards .projectImage3:hover h2,
+.cards .projectImage3:hover h3,
+.cards .projectImage3:hover p,
+.cards .projectImage3:hover a {
+    opacity: 1;
+}
+.cards .projectImage4 {
+    height: 100%;
+    background-image: url('/public/project4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    background-position: center;
+    padding: 30px;
+    transition: 0.3s;
+}
+.cards .projectImage4:hover {
+    background: rgba(0, 0, 0, 0.75) url('/public/project2.png');
+    background-position: right 60% bottom 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    transform: scale(1.1);
+}
+.cards .projectImage4:hover h2,
+.cards .projectImage4:hover h3,
+.cards .projectImage4:hover p,
+.cards .projectImage4:hover a {
+    opacity: 1;
+}
+
+@media (max-width: 912px) {
+    .Projects .ProjectHeader {
+        display: flex;
+        justify-content: center;
+    }
+    .myProjects {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+    .cards {
+        height: 425px;
+        width: 400px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 20%;
+    }
+    #quote {
+        height: 425px;
+        width: 400px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 20%;
+        height: 200px;
+    }
+    #quote .projectImage1 h2 {
+        font-family: 'Quicksand', sans-serif;
+        opacity: 1;
+        font-size: 20px;
+        font-weight: 400;
+        transform: translateX(0px);
+        color: black;
+        line-height: 25px;
+    }
+}

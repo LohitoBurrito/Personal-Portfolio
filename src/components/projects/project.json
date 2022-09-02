@@ -1,0 +1,45 @@
+[
+    {
+        "projectName": "Notes Marketplace App",
+        "className": "projectImage1",
+        "date": "Jun 2022 - Aug 2022 (Deploying Soon, Links will take you to main portfolio page, )",
+        "description": "This website gives UIUC students the opportunity to share their notes from their classes with other students providing everyone with extra resources besides textbooks and lecture videos",
+        "Tools": "Django, Html, CSS, Javascript",
+        "Image": "/project1.png",
+        "Github": "https://github.com/LohitoBurrito/NotesApp",
+        "Weblink": ""
+    },
+    {
+        "projectName": "My Personal Portfolio",
+        "className": "projectImage1",
+        "date": "Aug 2022",
+        "description": 
+        "This is a personal portfolio about my journey of self-learning different languages and frameworks for web development",
+        "Tools": "React",
+        "Image": "/project2.png",
+        "Github": "https://github.com/LohitoBurrito/Personal-Portfolio",
+        "Weblink": "https://63119e260d6d564a66ac6988--lustrous-faloodeh-f821ba.netlify.app/"
+    },
+    {
+        "projectName": "Illini RoboSubs Website",
+        "className": "projectImage4",
+        "date": "Coming Soon",
+        "description": 
+        "Coming Soon, Links will take you to main portfolio page",
+        "Tools": "NodeJs & React",
+        "Image": "/project4.png",
+        "Github": "",
+        "Weblink": ""
+    },
+    {
+        "projectName": "Uber Website Clone",
+        "className": "projectImage3",
+        "date": "Coming Soon",
+        "description": 
+        "Coming Soon, Links will take you to main portfolio page",
+        "Tools": "NodeJs & React",
+        "Image": "/project3.webp",
+        "Github": "",
+        "Weblink": ""
+    }
+]

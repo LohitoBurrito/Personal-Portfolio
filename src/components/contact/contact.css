@@ -1,0 +1,171 @@
+.Contact {
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+}
+.Contact h1 {
+    font-size: clamp(30px, 0px + 20vw, 225px);
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    text-shadow: 5px 5px rgb(234, 78, 78);
+}
+.BigContainer {
+    transform: translateY(27px);
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+}
+.SocialContact {
+    width: 27.5%;
+    height: 100%;
+}
+.SocialContact .Email {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+.SocialContact .Email h3 {
+    font-size: 25px;
+    font-weight: 100;
+}
+.SocialContact .Email h2 {
+    font-size: 25px;
+    font-weight: 200;
+}
+.SocialContact .Phone {
+    display: flex;
+    padding-left: 80px;
+}
+.SocialContact .Phone h3 {
+    font-size: 25px;
+    font-weight: 100;
+}
+.SocialContact .Phone h2 {
+    font-size: 25px;
+    font-weight: 200;
+}
+.ContactForm {
+    width: 25%;
+    height: 100%;
+}
+.ContactForm input {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 10%;
+    margin-top: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border-color: white;
+    border-width: 3px;
+    background-color: black;
+    color: white;
+    font-family: 'Lobster', 'cursive';
+    font-size: 20px;
+}
+.MessageContainer {
+    width: 25%;
+    height: 100%;
+}
+.MessageContainer textarea {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 70%;
+    margin-top: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border-color: white;
+    border-width: 2px;
+    background-color: black;
+    color: white;
+    font-family: 'Lobster', 'cursive';
+    font-size: 20px;
+}
+.SubmitButton {
+    width: 22.5%;
+    height: 100%;
+}
+.SubmitButton input {
+    width: 50%;
+    height: 10%;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Lobster', 'cursive';
+    font-weight: 100;
+    box-shadow: inset 0px 0px white;
+    transition: 0.5s;
+}
+.SubmitButton input:hover {
+    box-shadow: inset 300px 0px white;
+    color: black;
+}
+@media (max-width: 1208px) {
+    .Contact {
+        width: 100%;
+        background-color: white;
+        display: inline-block;
+        justify-content: center;
+    }
+    .BigContainer {
+        height: 100%;
+        display: inline-block;
+    }
+    .SocialContact {
+        margin-left:auto;
+        margin-right:auto;
+        width: 90%;
+    }
+    .SocialContact .Email {
+        justify-content: center;
+    }
+    .SocialContact .Phone {
+        justify-content: center;
+    }
+    .MessageContainer {
+        margin-left:auto;
+        margin-right:auto;
+        width: 90%;
+        height: 200px;
+    }
+    .ContactForm {
+        margin-left:auto;
+        margin-right:auto;
+        width: 90%;
+    }
+    .SubmitButton {
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 30px;
+        width: 90%;
+    }
+    .SubmitButton input {
+        display: block;
+        margin : 0 auto;
+    }
+    .SocialContact .Phone {
+        display: flex;
+        padding-left: 0px;
+    }
+    .SocialContact .Email {
+        display: flex;
+        padding-left: 0px;
+    }
+}
